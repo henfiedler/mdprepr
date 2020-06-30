@@ -10,7 +10,8 @@ License: CCO
 Encoding: UTF-8
 LazyData: true
 Imports:
-    tidyvers,
+    tidyverse,
     stringr
 URL: http://github.com/henfiedler/mdprepr
 BugReports: http://github.com/henfiedler/mdprepr/issues
+RoxygenNote: 7.1.0
