@@ -10,7 +10,7 @@ License: CCO
 Encoding: UTF-8
 LazyData: true
 Imports:
-    tidyverse,
+    dplyr,
     stringr
 URL: http://github.com/henfiedler/mdprepr
 BugReports: http://github.com/henfiedler/mdprepr/issues
