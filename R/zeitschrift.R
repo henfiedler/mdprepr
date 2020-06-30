@@ -1,6 +1,6 @@
 #' Erzeugen der Variable Mitgl_digitale_Zeitschrift
 #'
-#' @param data ein Ausgangsdatensatz.
+#' @param data der Ausgangsdatensatz
 #' @param a erste Variable
 #' @return Erzeugen der Variable Mitgl_digitale_Zeitschrift aus \code{a}.
 #' @import dplyr

@@ -7,7 +7,7 @@
 zeitschrift(data, a)
 }
 \arguments{
-\item{data}{ein Ausgangsdatensatz.}
+\item{data}{der Ausgangsdatensatz}
 
 \item{a}{erste Variable}
 }

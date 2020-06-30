@@ -1,8 +1,8 @@
 #' Erzeugen der Variable Selektion_17
 #'
-#' @param data ein Ausgangsdatensatz.
+#' @param data der Ausgangsdatensatz
 #' @param a erste Variable
-#' @return Erzeugen der Variable Selektion_17 aus \code{a}.
+#' @return Erzeugen der Variable Selektion_17 aus \code{a}
 #' @import dplyr
 #' @export
 selektion17 <- function(data, a) {

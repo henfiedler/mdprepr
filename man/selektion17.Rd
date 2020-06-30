@@ -7,12 +7,12 @@
 selektion17(data, a)
 }
 \arguments{
-\item{data}{ein Ausgangsdatensatz.}
+\item{data}{der Ausgangsdatensatz}
 
 \item{a}{erste Variable}
 }
 \value{
-Erzeugen der Variable Selektion_17 aus \code{a}.
+Erzeugen der Variable Selektion_17 aus \code{a}
 }
 \description{
 Erzeugen der Variable Selektion_17

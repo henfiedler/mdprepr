@@ -7,14 +7,14 @@
 bemerkung(data, a, b)
 }
 \arguments{
-\item{data}{ein Ausgangsdatensatz}
+\item{data}{der Ausgangsdatensatz}
 
 \item{a}{erste Variable}
 
 \item{b}{zweite Variable}
 }
 \value{
-Erzeugen der Variable Sel_Bemerkung aus \code{a}, \code{b}.
+Erzeugen der Variable Sel_Bemerkung aus \code{a}, \code{b}
 }
 \description{
 Erzeugen der Variable Sel_Bemerkung
