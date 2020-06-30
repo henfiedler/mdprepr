@@ -12,7 +12,7 @@ bemerkung <- function(data, a, b) {
 }
 
 selektion17 <- function(data, a) {
-  rename(data, Sel_Selektion17 = all_of(a)) %>% # in den anderen Datensätzen "Weitere.Informationen"
+  rename(data, Sel_Selektion17 = all_of(a)) %>%
     mutate(Sel_Selektion17 = replace(Sel_Selektion17, Sel_Selektion17 == "keins", "")) %>%
     mutate(Sel_Selektion17 = replace(Sel_Selektion17, Sel_Selektion17 == "Newsletter-Abo", "begrüßen"))
 }
