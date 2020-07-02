@@ -6,7 +6,8 @@
 #' @import dplyr
 #' @export
 gmail <- function(data, a) {
-  mutate(data, Adr_e.mail = str_replace_all(a, "\\s", "")) %>%
-    mutate(a = str_to_lower(a)) %>%
-    mutate(a = str_replace_all(a, "@googlemail.com", "@gmail.com"))
+  rename(data, Adr_e.mail = all_of(a)) %>%
+  mutate(Adr_e.mail = str_replace_all(Adr_e.mail, "\\s", "")) %>%
+    mutate(Adr_e.mail = str_to_lower(Adr_e.mail)) %>%
+    mutate(Adr_e.mail = str_replace_all(Adr_e.mail, "@googlemail.com", "@gmail.com"))
 }
