@@ -2,7 +2,7 @@
 % Please edit documentation in R/gmail.R
 \name{gmail}
 \alias{gmail}
-\title{Erzeugen der Variable gmail}
+\title{Erzeugen der Variable Adr_e.mail}
 \usage{
 gmail(data, a)
 }
@@ -12,8 +12,8 @@ gmail(data, a)
 \item{a}{erste Variable}
 }
 \value{
-Alle Google-Mail Adressen in der Variable \code{a} werden zu gmail.com standardisiert
+Die Variable \code{a} wird zu Adr_e.Mail umbenannt und alle Google-Mail-Adressen werden zu gmail.com standardisiert
 }
 \description{
-Erzeugen der Variable gmail
+Erzeugen der Variable Adr_e.mail
 }
